@@ -56,6 +56,9 @@ importers:
       mongodb:
         specifier: ^6.13.0
         version: 6.13.0(socks@2.8.3)
+      multer:
+        specifier: 1.4.5-lts.1
+        version: 1.4.5-lts.1
       net:
         specifier: 1.0.2
         version: 1.0.2
