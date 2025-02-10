@@ -6,8 +6,13 @@ dist
 node_modules
 dist/
 
+characters/*
+data/*
+
+!characters/.gitkeep
+!data/.gitkeep
+
 db.sqlite
 .idea
 .tee-cloud
 
-data
