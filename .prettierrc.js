@@ -7,7 +7,7 @@ module.exports = {
   tabWidth: 2,
   semi: true,
   printWidth: 100,
-  plugins: ['@trivago/prettier-plugin-sort-imports', 'prettier-plugin-prisma'],
+  plugins: ['@trivago/prettier-plugin-sort-imports'],
   importOrder: [
     `^(?!(@\/)|(\\.)|(\\..)[a-z@]).(?!.*\\.(${assetsSuffix})$)`, // All imports from node_modules
     `^@\/(?!.*\\.(${assetsSuffix})$)`, // All imports starts with "@/web/"
