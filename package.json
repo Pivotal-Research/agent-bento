@@ -2,6 +2,7 @@
   "name": "@elizaos/eliza-starter",
   "version": "0.1.9",
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "format": "prettier --write \"(src|test|prisma)/**/*.(js|mjs|cjs|jsx|ts|json|json5|jsonc|yml|yaml|md|markdown|graphql|gql|ng|sql|prisma)\"",
     "build": "tsup src/index.ts --format esm --dts",
